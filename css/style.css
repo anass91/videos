@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 65.5%;
+}
+
+.container{
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+.video{
+    height: 100vh;
+   
+    
+}
+@media screen and (max-width:320px){
+     .video{
+         height: 90vh;
+         width: 320px;
+     }  
+     .boxer{
+         width: 320px !important;
+         padding: 1rem;
+     } 
+}
+.btn{
+    background-color: rgba(0, 0, 0, 0.315);
+    border: none;
+    color: gray;
+    font-size: 5rem;
+}
+.btn:hover{
+    transform: scale(1.1);
+    color: yellow;
+}
+.boxer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nexto, #backo{
+    position: absolute;
+}
+#nexto{
+    left: 0;
+}
+#backo{
+    right: 1rem;
+}
